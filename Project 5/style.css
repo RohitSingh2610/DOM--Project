@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#start {
+    line-height: 2rem;
+    width: 7rem;
+    font-size: 2rem;
+    color: rgb(72, 5, 5);
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    margin-left: 2px;
+    margin-right: 1rem;
+}
+
+#stop {
+    line-height: 2rem;
+    width: 7rem;
+    font-size: 2rem;
+    color: rgb(72, 5, 5);
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+}
