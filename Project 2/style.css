@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B6EFD4;
+}
+
+nav {
+    background-color: #7CE577;
+    text-decoration: none;
+    text-decoration-line: none;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 8rem;
+    height: 3rem;
+    background-color: #808482;
+    text-align: center;
+    padding: .9rem;
+    border-radius: 1rem;
+    margin: 0.3rem;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+form p {
+    font-size: 2rem;
+    margin: 2rem 0 2rem 0;
+
+}
+
+form p input {
+    width: 15rem;
+    height: 1.9rem;
+}
+
+form button {
+    width: 13rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+form h3 {
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+form #result {
+    font-size: 4rem;
+    color: #ff0000;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:500px) {
+    nav {
+        line-height: 2rem;
+        font-size: 1.4rem;
+    }
+
+    nav a {
+        width: 5rem;
+        height: 2.4rem;
+        background-color: #808482;
+        text-align: center;
+        padding: .7rem;
+        border-radius: 1rem;
+        margin: 0.2rem;
+    }
+
+    .container h1 {
+        font-size: 2.9rem;
+    }
+
+    form p {
+        font-size: 1.5rem;
+        margin: 1.8rem 0 1.8rem 0;
+
+    }
+
+    form p input {
+        width: 12rem;
+        height: 1.7rem;
+    }
+
+    form button {
+        width: 8rem;
+        height: 2rem;
+        font-size: 1rem;
+        font-weight: 900;
+
+        border-radius: 1rem;
+        margin-left: 5rem;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+        cursor: pointer;
+    }
+}
